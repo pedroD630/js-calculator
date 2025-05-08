@@ -1,11 +1,3 @@
-// ouvir cliques
-// receber valor do botão clicado
-// ao clicar em numero adicionar valor ao campo de exibição
-// ao selecionar um operador, armazenar o valor atual e o operador selecionado (usar função atualizaOperador)
-// ao clicar em igual, calcular o resultado e exibir no campo de exibição. A função que será chamada depende do operador selecionado
-// ao clicar em limpar, limpar o campo de exibição e os valores armazenados
-// ao clicar em ponto, adicionar ponto ao campo de exibição se não houver ponto
-
 document.addEventListener('DOMContentLoaded', function() {
     const display = document.getElementById('calculator-display');
     const buttons = document.querySelectorAll('.btn');
